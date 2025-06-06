@@ -12,7 +12,7 @@ import {getTime} from '@/utils/time'
          <img :src="userStore.avatar" alt="" class="avatar">
        <div class="bottom">
         <h3 class="title">{{getTime()}}好呀{{ userStore.username }}</h3>
-        <p class="subtitle">后台管理系统</p>
+        <p class="subtitle">Seeped 驿站</p>
        </div>
        </div>
     </el-card>
